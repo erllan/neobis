@@ -5,15 +5,15 @@ students = {'neobis': [{
     'lastName': 'Parker',
     'university': 'KNU',
     'profession': 'developer',
-    'class': '1',
-    'entered': '2020'
+    'class': 1,
+    'entered': 2020
 }, {
     'name': 'Robert',
     'lastName': 'Whien',
     'university': 'KNU',
     'profession': 'developer',
-    'class': '1',
-    'entered': '2020'
+    'class': 1,
+    'entered': 2020
 }]}
 
 result = json.dumps(students)
