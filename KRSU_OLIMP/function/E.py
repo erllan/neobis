@@ -6,9 +6,9 @@ def Mutually_simple(a, b):
             b %= a
     gcd = a + b
     if gcd == 1:
-        print('YES')
+        return 'YES'
     else:
-        print('NO')
+        return 'NO'
 
 
 a, b = input().split(' ')

@@ -6,9 +6,9 @@ def perfect_numbers(number):
             if number % n == 0:
                 re.append(n)
         if sum(re) == number:
-            print('YES')
+            return 'YES'
         elif sum(re) != number:
-            print('NO')
+            return 'NO'
 
 
 a = int(input())

@@ -8,9 +8,9 @@ def GCD(a, b):
             b %= a
 
     gcd = a + b
-    print(f'GCD({x},{y})={gcd}')
+    return f'GCD({x},{y})={gcd}'
 
 
 a, b = input().split()
 
-GCD(int(a), int(b))
+print(GCD(int(a), int(b)))

@@ -8,8 +8,8 @@ def allSum(a):
             revers.append(i)
         for i in reversed(revers):
             res += i + '+'
-        print(f"{res.strip('+')}={sum}")
+        return f"{res.strip('+')}={sum}"
 
 
 a = input()
-allSum(a)
+print(allSum(a))
